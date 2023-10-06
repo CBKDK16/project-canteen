@@ -1,0 +1,50 @@
+/* Body and Background Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #ff0000; /* Red header background */
+    color: #fff; /* White text color */
+}
+
+/* Button Styles */
+a {
+    background: #ff0000; /* Red button background */
+    color: #fff; /* White button text color */
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+a:hover {
+    background: #000; /* Black button background on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table th, table td {
+    border: 1px solid #000; /* Black borders for table cells */
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ff0000; /* Red header background for table */
+    color: #fff; /* White text color for table header */
+}
+
+table tr:nth-child(even) {
+    background-color: #fff; /* White background for even rows */
+}
+
+table tr:nth-child(odd) {
+    background-color: #f0f0f0; /* Light gray background for odd rows */
+}
